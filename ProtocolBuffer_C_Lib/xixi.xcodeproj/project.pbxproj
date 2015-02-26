@@ -888,10 +888,10 @@
 		6505569A1A8DC9FD001FF3BD /* test_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_util.h; sourceTree = "<group>"; };
 		6505569B1A8DC9FD001FF3BD /* test_util_lite.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_util_lite.cc; sourceTree = "<group>"; };
 		6505569C1A8DC9FD001FF3BD /* test_util_lite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_util_lite.h; sourceTree = "<group>"; };
-		6505569E1A8DC9FD001FF3BD /* bad_utf8_string */ = {isa = PBXFileReference; lastKnownFileType = file; path = bad_utf8_string; sourceTree = "<group>"; };
-		6505569F1A8DC9FD001FF3BD /* golden_message */ = {isa = PBXFileReference; lastKnownFileType = file; path = golden_message; sourceTree = "<group>"; };
-		650556A01A8DC9FD001FF3BD /* golden_message_oneof_implemented */ = {isa = PBXFileReference; lastKnownFileType = file; path = golden_message_oneof_implemented; sourceTree = "<group>"; };
-		650556A11A8DC9FD001FF3BD /* golden_packed_fields_message */ = {isa = PBXFileReference; lastKnownFileType = file; path = golden_packed_fields_message; sourceTree = "<group>"; };
+		6505569E1A8DC9FD001FF3BD /* bad_utf8_string */ = {isa = PBXFileReference; lastKnownFileType = text; path = bad_utf8_string; sourceTree = "<group>"; };
+		6505569F1A8DC9FD001FF3BD /* golden_message */ = {isa = PBXFileReference; lastKnownFileType = text; path = golden_message; sourceTree = "<group>"; };
+		650556A01A8DC9FD001FF3BD /* golden_message_oneof_implemented */ = {isa = PBXFileReference; lastKnownFileType = text; path = golden_message_oneof_implemented; sourceTree = "<group>"; };
+		650556A11A8DC9FD001FF3BD /* golden_packed_fields_message */ = {isa = PBXFileReference; lastKnownFileType = text; path = golden_packed_fields_message; sourceTree = "<group>"; };
 		650556A21A8DC9FD001FF3BD /* text_format_unittest_data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text_format_unittest_data.txt; sourceTree = "<group>"; };
 		650556A31A8DC9FD001FF3BD /* text_format_unittest_data_oneof_implemented.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text_format_unittest_data_oneof_implemented.txt; sourceTree = "<group>"; };
 		650556A41A8DC9FD001FF3BD /* text_format_unittest_data_pointy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text_format_unittest_data_pointy.txt; sourceTree = "<group>"; };
@@ -1047,8 +1047,6 @@
 		650557441A8DCC40001FF3BD /* libprotobuf-c.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libprotobuf-c.sym"; sourceTree = "<group>"; };
 		650557451A8DCC40001FF3BD /* protobuf-c.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "protobuf-c.c"; sourceTree = "<group>"; };
 		650557461A8DCC40001FF3BD /* protobuf-c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "protobuf-c.h"; sourceTree = "<group>"; };
-		650557471A8DCC40001FF3BD /* protobuf-c.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = "protobuf-c.lo"; sourceTree = "<group>"; };
-		650557481A8DCC40001FF3BD /* protobuf-c.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "protobuf-c.o"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2373,8 +2371,6 @@
 				650557441A8DCC40001FF3BD /* libprotobuf-c.sym */,
 				650557451A8DCC40001FF3BD /* protobuf-c.c */,
 				650557461A8DCC40001FF3BD /* protobuf-c.h */,
-				650557471A8DCC40001FF3BD /* protobuf-c.lo */,
-				650557481A8DCC40001FF3BD /* protobuf-c.o */,
 			);
 			path = "protobuf-c";
 			sourceTree = "<group>";
