@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3672356B1AA18ACD00CF59CC /* c_bytes_field.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557141A8DC9FE001FF3BD /* c_bytes_field.cc */; };
+		3672356C1AA18AD000CF59CC /* c_enum.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557161A8DC9FE001FF3BD /* c_enum.cc */; };
+		3672356D1AA18ADD00CF59CC /* c_enum_field.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557181A8DC9FE001FF3BD /* c_enum_field.cc */; };
+		3672356E1AA18ADD00CF59CC /* c_extension.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6505571A1A8DC9FE001FF3BD /* c_extension.cc */; };
+		3672356F1AA18ADD00CF59CC /* c_field.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6505571C1A8DC9FE001FF3BD /* c_field.cc */; };
+		367235701AA18ADD00CF59CC /* c_file.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6505571E1A8DC9FE001FF3BD /* c_file.cc */; };
+		367235711AA18ADD00CF59CC /* c_generator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557201A8DC9FE001FF3BD /* c_generator.cc */; };
+		367235721AA18ADD00CF59CC /* c_helpers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557221A8DC9FE001FF3BD /* c_helpers.cc */; };
+		367235731AA18ADD00CF59CC /* c_message.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557241A8DC9FE001FF3BD /* c_message.cc */; };
+		367235741AA18ADD00CF59CC /* c_message_field.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557261A8DC9FE001FF3BD /* c_message_field.cc */; };
+		367235751AA18ADD00CF59CC /* c_primitive_field.cc in Sources */ = {isa = PBXBuildFile; fileRef = 650557281A8DC9FE001FF3BD /* c_primitive_field.cc */; };
+		367235761AA18ADD00CF59CC /* c_service.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6505572A1A8DC9FE001FF3BD /* c_service.cc */; };
+		367235771AA18ADD00CF59CC /* c_string_field.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6505572C1A8DC9FE001FF3BD /* c_string_field.cc */; };
+		367235781AA18ADD00CF59CC /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6505572E1A8DC9FF001FF3BD /* main.cc */; };
 		650553201A8DC9AA001FF3BD /* libxixi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650553141A8DC9AA001FF3BD /* libxixi.a */; };
 		65A68D051A8DD67A00F67F4C /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 650557451A8DCC40001FF3BD /* protobuf-c.c */; };
 /* End PBXBuildFile section */
@@ -2487,7 +2501,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3672356F1AA18ADD00CF59CC /* c_field.cc in Sources */,
+				3672356B1AA18ACD00CF59CC /* c_bytes_field.cc in Sources */,
+				3672356D1AA18ADD00CF59CC /* c_enum_field.cc in Sources */,
+				367235731AA18ADD00CF59CC /* c_message.cc in Sources */,
+				367235711AA18ADD00CF59CC /* c_generator.cc in Sources */,
+				3672356C1AA18AD000CF59CC /* c_enum.cc in Sources */,
+				367235701AA18ADD00CF59CC /* c_file.cc in Sources */,
+				367235741AA18ADD00CF59CC /* c_message_field.cc in Sources */,
+				3672356E1AA18ADD00CF59CC /* c_extension.cc in Sources */,
+				367235781AA18ADD00CF59CC /* main.cc in Sources */,
+				367235721AA18ADD00CF59CC /* c_helpers.cc in Sources */,
+				367235761AA18ADD00CF59CC /* c_service.cc in Sources */,
+				367235751AA18ADD00CF59CC /* c_primitive_field.cc in Sources */,
 				65A68D051A8DD67A00F67F4C /* protobuf-c.c in Sources */,
+				367235771AA18ADD00CF59CC /* c_string_field.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
