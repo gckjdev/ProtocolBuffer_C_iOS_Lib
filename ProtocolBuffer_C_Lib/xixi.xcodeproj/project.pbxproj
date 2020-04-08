@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		650553201A8DC9AA001FF3BD /* libxixi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650553141A8DC9AA001FF3BD /* libxixi.a */; };
+		650553201A8DC9AA001FF3BD /* libprotocolc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650553141A8DC9AA001FF3BD /* libprotocolc.a */; };
 		65B7E7171AA5A871005328A2 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 650557451A8DCC40001FF3BD /* protobuf-c.c */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		650553141A8DC9AA001FF3BD /* libxixi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxixi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		650553141A8DC9AA001FF3BD /* libprotocolc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libprotocolc.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6505531F1A8DC9AA001FF3BD /* xixiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xixiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		650553251A8DC9AA001FF3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650557351A8DCC40001FF3BD /* .dirstamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = .dirstamp; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				650553201A8DC9AA001FF3BD /* libxixi.a in Frameworks */,
+				650553201A8DC9AA001FF3BD /* libprotocolc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		650553151A8DC9AA001FF3BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				650553141A8DC9AA001FF3BD /* libxixi.a */,
+				650553141A8DC9AA001FF3BD /* libprotocolc.a */,
 				6505531F1A8DC9AA001FF3BD /* xixiTests.xctest */,
 			);
 			name = Products;
@@ -174,7 +174,7 @@
 			);
 			name = xixi;
 			productName = xixi;
-			productReference = 650553141A8DC9AA001FF3BD /* libxixi.a */;
+			productReference = 650553141A8DC9AA001FF3BD /* libprotocolc.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6505531E1A8DC9AA001FF3BD /* xixiTests */ = {
@@ -272,10 +272,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
-					i386,
 					arm64,
 					armv7s,
 					armv7,
+					armv64,
+					x86_64,
+					i386,
 				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -313,7 +315,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386";
+				VALID_ARCHS = "arm64 armv7 armv7s armv64 i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -322,10 +324,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
-					i386,
 					arm64,
 					armv7s,
 					armv7,
+					armv64,
+					x86_64,
+					i386,
 				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -352,11 +356,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386";
+				VALID_ARCHS = "arm64 armv7 armv7s armv64 i386 x86_64";
 			};
 			name = Release;
 		};
@@ -368,6 +373,7 @@
 					arm64,
 					armv7s,
 					armv7,
+					x86_64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				HEADER_SEARCH_PATHS = (
@@ -380,6 +386,7 @@
 				PRODUCT_NAME = protocolc;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -391,6 +398,7 @@
 					arm64,
 					armv7s,
 					armv7,
+					x86_64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"HEADER_SEARCH_PATHS[arch=*]" = (
@@ -402,6 +410,7 @@
 				PRODUCT_NAME = protocolc;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
