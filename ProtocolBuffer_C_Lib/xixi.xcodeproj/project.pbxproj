@@ -276,6 +276,7 @@
 					armv7s,
 					armv7,
 					arm64,
+					x86_64,
 				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -326,6 +327,7 @@
 					armv7s,
 					armv7,
 					arm64,
+					x86_64,
 				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -369,6 +371,7 @@
 					armv7s,
 					armv7,
 					arm64,
+					x86_64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				HEADER_SEARCH_PATHS = (
@@ -395,6 +398,7 @@
 					armv7s,
 					armv7,
 					arm64,
+					x86_64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"HEADER_SEARCH_PATHS[arch=*]" = (
